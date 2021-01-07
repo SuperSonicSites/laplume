@@ -1,0 +1,51 @@
+<div class="formbox"><h3 class="has-text-primary has-text-weight-bold is-size-4 mb-3">Let's Talk</h3>
+<form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+          
+        <div class="columns">
+            <div class="column">
+                <div class="field">
+                    <label class="label">{{ i18n "firstname" }} *</label>
+                       
+                    <div class="control">
+                
+                      <input id="firstname" class="input" placeholder="e.g Alex" type="text" name="firstame" class="form-control" required="required" data-error="Firstname is required.">
+                
+                    </div>
+                
+                  </div>
+            </div>
+            <div class="column">
+                <div class="field">
+  
+                    <label class="label">{{ i18n "lastname" }} *</label>
+                       
+                    <div class="control">
+                
+                      <input id="lastname" class="input" placeholder="e.g Smith" type="text" name="lastname" class="form-control" required="required" data-error="Lastname is required.">
+                
+                    </div>
+                
+                  </div>
+            </div>
+        </div>
+
+
+    
+  
+  <div class="field">
+    
+    <label class="label">{{ i18n "email" }} *</label>
+    
+    <div class="control">
+    
+      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com" data-error="Valid email is required.">
+    
+    </div>
+  
+  </div>
+
+<div class="is-flex is-justified-start">
+<input type="submit" class="button is-primary mt-3" value="Let's Go">
+</div>
+</form>
+</div>

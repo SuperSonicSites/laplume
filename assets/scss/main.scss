@@ -1,0 +1,46 @@
+/* Base Settings */
+.container {
+    max-width: 1140px !important;
+}
+h1,h2,h3,h4 {
+    font-family: 'Raleway', sans-serif;
+}   
+p,a,li {
+    font-family: 'Open Sans', sans-serif;
+}
+/* Subheader */
+@media only screen and (max-width: 968px)  {
+.subheader {
+    margin-top: 3.3rem;
+}
+}
+
+
+
+/* Found in footer */
+.footer_logo { 
+    width: 200px;
+}
+footer {
+
+    .nav-link {
+    color: $secondary !important;
+
+    &:hover {
+        color: $primary;
+    }
+}
+}
+.footer_bg {
+
+}
+.fill-brand-footer {
+    height: 30px;
+    width: 30px;
+    fill: $primary;
+    transition: all .3s;
+
+    &:hover {
+        fill: black;
+    }
+}
