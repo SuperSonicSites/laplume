@@ -3,10 +3,21 @@
     max-width: 1140px !important;
 }
 h1,h2,h3,h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
 }   
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+
+}
+.navbar-brand {
+    transition: all .3s;
+    &:hover {
+    background-color: $primary;
+}
+}
+
 p,a,li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 /* Subheader */
 @media only screen and (max-width: 968px)  {

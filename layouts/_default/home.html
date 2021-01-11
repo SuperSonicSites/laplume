@@ -1,143 +1,172 @@
 {{ define "main" }}
-<header class="hero is-fullheight is-bold gradient-background home">
 
-    <div class="hero-body">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
-      <div class="container">
-          <div class="columns">
-              <div class="column is-7 is-flex is-column is-justified-center">
-                <div class="is-flex is-column is-aligned-center-touch is-justified-center-touch">
-                    <p class="is-size-4 has-text-uppercase has-text-white has-text-weight-bold" data-aos="fade-right" data-aos-duration="800">{{ .Params.hero1 | safeHTML }}</p>
-                    <h1 class="title is-size-1 my-3 has-text-white" data-aos="fade" data-aos-delay="500" data-aos-duration="800">
-                      Custom Software<span style='font-style: italic;'>Plus</span>
-                    </h1>
-                    <p class="subtitle mt-1 is-size-5 has-text-white" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
-                      {{ .Params.hero2 | safeHTML }}
-                    </p>
-                </div>
-              </div>
-              <div class="column is-1"></div>
-              <div class="column is-4">
-                <div class="" data-aos="zoom-in" data-aos-delay="1500" data-aos-duration="800">
-                {{- partial "form.html" .}}
-              </div>
-          </div>
-
+<header id="home" class="hero is-fullheight is-fullheight-with-navbar gradient-background">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-flex is-column is-justified-center">
+          <h1 class="is-hero">Lorem ipsum dolor</h1>
+          <p class="is-size-4">Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. </p>
+        </div>
+        <div class="column">
+          <img src="{{ $.Site.BaseURL }}img/logo-test.png" alt="La Plume d'Éveil">
+        </div>
       </div>
-  
+      
     </div>
-  
+  </div>
 </header>
-<section class="section mt-5 has-background-white has-text-dark has-text-weight-bold">
-    <div class="container">
-    <div class="is-flex is-column is-justified-center is-aligned-center">
-        <h2 class="is-size-2 has-text-centered">Tailored Solutions for Every Type of Business Process</h2>
+<section id="about" class="section is-medium">
+  <div class="container">
+  <div class="columns is-variable is-5">
+    <div class="column">
+      <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
     </div>
+    <div class="column">
+      <h2 class="is-size-1 mb-3">About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+    </div>
+  </div>
 </div>
 </section>
 
-<section class="section">
-    <div class="container">
-
-    <div class="columns">
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-                <svg class="feature_icon">
-                    <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#cogs"></use>
-                  </svg>
-                <h3 class="is-size-4 has-text-centered has-text-weight-bold">Optimize Internal Business Processes</h3>
-                <p class="has-text-centered has-font-size-small">{{ .Params.lorem }}</p>
-            </div>
-            
-        </div>
-
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-            <svg class="feature_icon">
-                <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#chart-bar"></use>
-              </svg>
-            <h3 class="is-size-4 has-text-centered has-text-weight-bold">Improve Customers Interactions</h3>
-            <p class="has-text-centered has-font-size-small">{{ .Params.lorem }}</p>
-        </div>
-        </div>
-
-        <div class="column">
-            <div class="box__feature is-flex is-column is-justified-center is-aligned-center" data-aos="fade-up" data-aos-duration="800">
-            <svg class="feature_icon">
-                <use xlink:href="{{ $.Site.BaseURL }}icons/light.svg#lightbulb-on"></use>
-              </svg>
-            <h3 class="is-size-4 has-text-centered has-text-weight-bold">Streamline collaboration with Partners</h3>
-            <p class="has-text-centered has-font-size-small">{{ .Params.lorem }}</p>
-        </div>
-            </div>
+<section id="numerology" class="section is-medium has-background-primary">
+  <div class="container has-text-black">
+    <div class="columns is-variable is-5">
+      <div class="column is-8">
+        <h2 class="is-size-1 mb-3">Numerology</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
+      </div>
+      <div class="column is-flex is-column is-justified-center">
+        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        
+      </div>
     </div>
-</div>
+  </div>
 </section>
-<section class="section is-medium" data-aos="fade-up" data-aos-duration="800">
-    
-    <div class="container">
-        <h2 class="has-text-centered is-size-2 mb-5 pb-5">What is Custom Software Development?</h2>
-    <div class="columns">
-        <div class="column is-7">
-            <p>{{ .Params.Lorembig | safeHTML }}</p>
-        </div>
-        <div class="column is-5">
-            <img src="{{ $.Site.BaseURL }}img/og.jpg" alt="">
-        </div>
-    </div>
-</div>
-</section>
-<section class="section is-medium has-background-primary has-text-white testimonials" data-aos="fade-up" data-aos-duration="800">
-    <div class="container">
-        <h2 class="has-text-centered is-size-1">Testimonials</h2>
 
-        <div class="testimonials-section">
-            <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide3" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide4" class="slider__nav"/>
-            <input type="radio" name="slider" title="slide5" class="slider__nav"/>
-          <div class="slider__inner">
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">We love you guys. It's easy to order, we get shipments quick and my rep solves tough problems the right way. We get answers that work.</p>
-              <h2 class="slider__caption">Rhonda | NylonCraft</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">You all bend over backwards to get it done. Inside sales and the Account Managers are great! It's your service...you all know that it's not just about taking orders it's about service. Why do we choose you guys - your people, your prices, you're quick and you have a ton of technical knowledge.</p>
-              <h2 class="slider__caption">Jared | Rexam</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">It's the long-term relationship we have with Proheat that keeps me calling you guys. I trust you, you're quick, and everybody I've ever spoken to there are all great people. Our CEO, Bill, talks about building relationships. That's exactly what Proheat does, and I couldn't be happier.</p>
-              <h2 class="slider__caption">Chris | C&M Fine Pack</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">You answer my questions, always takes care of problems, and I never have a hassle.</p>
-              <h2 class="slider__caption">Rex | LNP Engineering Plastics</h2>
-            </div>
-            <div class="slider__contents">
-              <quote>&rdquo;</quote>
-              <p class="slider__txt">Proheat's staff are all so friendly and everybody goes above and beyond. Everyone is courteous, everything is quick and you get us what we need. I have to shop around for everything and we ALWAYS come back to Proheat.</p>
-              <h2 class="slider__caption">Darlene | Russel Stover</h2>
-            </div>
-          </div>
-        </div>
+<section id="reiki" class="section is-medium">
+  <div class="container has-text-black">
+    <div class="columns is-variable is-5">
+      <div class="column is-8">
+        <h2 class="is-size-1 mb-3">Reiki</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
+      </div>
+      <div class="column is-flex is-column is-justified-center">
+        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        
+      </div>
     </div>
+  </div>
 </section>
-{{- partial "cta.html" .}}
+
+<section id="massage" class="section is-medium has-background-primary">
+  <div class="container has-text-black">
+    <div class="columns is-variable is-5">
+      <div class="column is-8">
+        <h2 class="is-size-1 mb-3">Metamorphic Massage</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
+      </div>
+      <div class="column is-flex is-column is-justified-center">
+        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="numerology" class="section is-medium">
+  <div class="container has-text-black">
+    <div class="columns is-variable is-5">
+      <div class="column is-8">
+        <h2 class="is-size-1 mb-3">Access Bar</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
+      </div>
+      <div class="column is-flex is-column is-justified-center">
+        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section is-small">
+  <div class="container">
+    <h2 class="is-size-2 is-bold has-text-centered has-text-left-touch">
+      Contact
+    </h2>
+    <p class="has-text-centered has-text-left-touch block py-2">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna,
+    </p>
+  </div>
+  <div class="column is-half is-offset-one-quarter shadow is-bordered my-5 p-5">
+    <form
+      id="contact-form"
+      method="POST"
+      action="{{ .Site.Params.usebasin }}"
+      class="has-shadow form"
+      role="form"
+    >
+      <div class="field">
+        <label class="label">{{ i18n "firstname" }} *</label>
+
+        <div class="control">
+          <input
+            id="form_name"
+            class="input"
+            placeholder="e.g Alex Smith"
+            type="text"
+            name="name"
+            class="form-control"
+            required="required"
+            data-error="Firstname is required."
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">{{ i18n "email" }} *</label>
+
+        <div class="control">
+          <input
+            class="input"
+            type="email"
+            placeholder="e.g. alexsmith@gmail.com"
+            data-error="Valid email is required."
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">{{ i18n "phone" }}</label>
+
+        <div class="control">
+          <input class="input" type="tel" placeholder="e.g. +1-234-567-7890" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="form_message"><strong>Message *</strong></label>
+
+        <textarea
+          id="form_message"
+          name="message"
+          class="textarea"
+          rows="4"
+          required
+          data-error="Please,leave us a message."
+        ></textarea>
+      </div>
+      <div class="is-flex is-justified-center">
+        <input type="submit" class="button is-primary is-large my-5 has-text-centered"
+        value="{{ i18n "send" }}">
+      </div>
+    </form>
+  </div>
+</section>
 {{ end }}
 
