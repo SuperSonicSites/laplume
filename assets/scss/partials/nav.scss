@@ -18,6 +18,9 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   
   /* MENU STYLES */
+  .mobile {
+    display: none;
+  }
   .mobile .navbar-brand {
     width: 165px;
   }
