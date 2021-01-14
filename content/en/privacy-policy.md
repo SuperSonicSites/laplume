@@ -3,8 +3,8 @@ title: Privacy Policy
 description: "The privacy policy"
 layout: single
 bannerh1: "Privacy Policy"
-companyname: "Custom SoftwarePLUS" #Company Name Here
-companyemail: "info@netcomp.ca" #Company Name Here
+companyname: "La Plume d'Eveil" #Company Name Here
+companyemail: "info@laplumedeveil.ca" #Company Name Here
 ---
 
 Effective Date: May 5, 2020
