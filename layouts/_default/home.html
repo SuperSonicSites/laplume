@@ -5,8 +5,9 @@
     <div class="container">
       <div class="columns">
         <div class="column is-flex is-column is-justified-center">
-          <h1 class="is-hero">Lorem ipsum dolor</h1>
-          <p class="is-size-4">Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. </p>
+          <h1 class="is-hero">{{ .Params.heading1 }}</h1>
+          <p class="is-size-2">{{ .Params.subheading1 }}</p>
+          <p class="is-size-5">{{ .Params.subheading2 }}</p>
         </div>
         <div class="column">
           <img src="{{ $.Site.BaseURL }}img/logo-test.png" alt="La Plume d'Éveil">
@@ -20,11 +21,11 @@
   <div class="container">
   <div class="columns is-variable is-5">
     <div class="column">
-      <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+      <img src="https://via.placeholder.com/800x1200.png" class="has-shadow" alt="">
     </div>
     <div class="column">
-      <h2 class="is-size-1 mb-3">About</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+      <h2 class="is-size-1 mb-3">{{ .Params.about_heading }}</h2>
+      <p>{{ .Params.about_bio  | safeHTML }}</p>
     </div>
   </div>
 </div>
@@ -34,12 +35,12 @@
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
       <div class="column is-8">
-        <h2 class="is-size-1 mb-3">Numerology</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <h2 class="is-size-1 mb-3">{{ .Params.numerology_heading }}</h2>
+        <p>{{ .Params.numerology_desc | safeHTML }}</p>
         <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
-        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        <img src="{{ $.Site.BaseURL }}img/numerology.jpg" class="has-shadow" alt="Numerology">
         
       </div>
     </div>
@@ -50,8 +51,8 @@
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
       <div class="column is-8">
-        <h2 class="is-size-1 mb-3">Reiki</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <h2 class="is-size-1 mb-3">{{ .Params.reiki_heading }}</h2>
+        <p>{{ .Params.reiki_desc | safeHTML }}</p>
         <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
@@ -67,12 +68,12 @@
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
       <div class="column is-8">
-        <h2 class="is-size-1 mb-3">Metamorphic Massage</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <h2 class="is-size-1 mb-3">{{ .Params.massage_heading }}</h2>
+        <p>{{ .Params.massage_desc }}</p>
         <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
-        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        <img src="{{ $.Site.BaseURL }}img/metamorphic.jpg" class="has-shadow" alt="">
         
       </div>
     </div>
@@ -83,8 +84,8 @@
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
       <div class="column is-8">
-        <h2 class="is-size-1 mb-3">Access Bar</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna, vel luctus justo egestas non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras lobortis ex a nibh vulputate, a sollicitudin est laoreet. Etiam mattis sagittis enim a volutpat. Quisque quis aliquam libero. Integer ultrices maximus nibh euismod sollicitudin. Maecenas iaculis vel leo at mollis. Mauris sit amet placerat orci. Praesent tincidunt diam eu pharetra facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at rhoncus velit. Morbi ultrices mollis augue at porta. Sed at posuere mauris.</p>
+        <h2 class="is-size-1 mb-3">{{ .Params.access_heading }}</h2>
+        <p>{{ .Params.access_desc }}</p>
         <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
@@ -98,10 +99,10 @@
 <section id="contact" class="section is-small">
   <div class="container">
     <h2 class="is-size-2 is-bold has-text-centered has-text-left-touch">
-      Contact
+      {{ .Params.contact_heading }}
     </h2>
     <p class="has-text-centered has-text-left-touch block py-2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate purus sed felis aliquam lobortis. Mauris id tincidunt risus, convallis sollicitudin tortor. Aenean euismod ex magna,
+      {{ .Params.contact_desc | safeHTML }}
     </p>
   </div>
   <div class="column is-half is-offset-one-quarter shadow is-bordered my-5 p-5">
