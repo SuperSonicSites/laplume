@@ -19,7 +19,7 @@ Get in touch and fill out a questionnaire today. Each session runs between 60-90
 reiki_heading: Reiki Sessions
 reiki_desc: "If you're looking for stress relief, then an in-person reiki session is just the thing for you. When you're so stressed and focused on getting work done all the time, it's a real struggle to truly disconnect and find a moment for yourself. Reconnect on a physical, emotional, and spiritual level with the help of drums, incense, candles, and essential oils for holistic help and pain relief. <br><br>Book an appointment for a 75 minute relaxation session personalized to your needs."
 
-massage_heading: Metamorphic massage
+massage_heading: Metamorphic Massage
 massage_desc: Relax with a 90-minute energy session with a unique twist. You'll enjoy a special 15-minute foot spa (with bath salts from a local essential oil company) followed by a hands and head massage. The session focuses on finding spiritual energy and concludes with an oracle card reading. 
 
 access_heading: Access Bar
