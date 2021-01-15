@@ -34,7 +34,7 @@
 <section id="numerology" class="section is-medium has-background-primary">
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
-      <div class="column is-8">
+      <div class="column is-6">
         <h2 class="is-size-1 mb-3">{{ .Params.numerology_heading }}</h2>
         <p>{{ .Params.numerology_desc | safeHTML }}</p>
         <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
@@ -50,13 +50,13 @@
 <section id="reiki" class="section is-medium">
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
-      <div class="column is-8">
+      <div class="column is-6">
         <h2 class="is-size-1 mb-3">{{ .Params.reiki_heading }}</h2>
         <p>{{ .Params.reiki_desc | safeHTML }}</p>
         <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
-        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        <img src="{{ $.Site.BaseURL }}img/reiki.jpg" class="has-shadow" alt="">
         
       </div>
     </div>
@@ -67,7 +67,7 @@
 <section id="massage" class="section is-medium has-background-primary">
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
-      <div class="column is-8">
+      <div class="column is-6">
         <h2 class="is-size-1 mb-3">{{ .Params.massage_heading }}</h2>
         <p>{{ .Params.massage_desc }}</p>
         <a href="#" class="button is-secondary mt-5">Schedule Appointment</a>
@@ -83,13 +83,13 @@
 <section id="access" class="section is-medium">
   <div class="container has-text-black">
     <div class="columns is-variable is-5">
-      <div class="column is-8">
+      <div class="column is-6">
         <h2 class="is-size-1 mb-3">{{ .Params.access_heading }}</h2>
         <p>{{ .Params.access_desc }}</p>
         <a href="#" class="button is-primary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
-        <img src="https://via.placeholder.com/800" class="has-shadow" alt="">
+        <img src="{{ $.Site.BaseURL }}img/accessbar.jpg" class="has-shadow" alt="">
         
       </div>
     </div>
