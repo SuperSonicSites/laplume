@@ -19,7 +19,7 @@ params:
         reviewvalue: "" 
         reservation: 'true'
         openinghour: '"Su-Sa 9:00-21:00"'
-        logo: img/logo.jpg
+        logo: img/logo.png
         image: "img/og.jpg"
         address: 874 Rue Villeneuve, 
         address2:
