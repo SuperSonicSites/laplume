@@ -13,7 +13,9 @@ section {
   padding: 2rem;
 }
 .gradient-background {
-  background: white;
+  background: linear-gradient(45deg, #f8f8f8 , $primary,#f9f9f9, $primary);
+    animation: gradient 20s ease infinite; 
+     background-size: 400% 400%;
  
 }
 @-webkit-keyframes gradient{
