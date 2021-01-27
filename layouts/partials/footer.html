@@ -89,7 +89,7 @@
   </div>
 </div>
 </section>
-<div class="has-background-light py-4">
+<div class="has-background-primary py-4">
 
     <div class="container level has-text-dark">
           
@@ -101,11 +101,11 @@
           
           {{ if eq .Site.Language.Lang "fr" }}
             
-              <a href="{{ .Site.BaseURL }}/privacy-policy" class="has-text-primary">{{ i18n "privacypolicy" }}
+              <a href="{{ .Site.BaseURL }}/privacy-policy" class="has-text-dark">{{ i18n "privacypolicy" }}
               
                   {{ else }}
               
-                  <a href="{{ .Site.BaseURL | relLangURL }}privacy-policy" class="has-text-primary has-text-centered-touch">{{ i18n "privacypolicy" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}privacy-policy" class="has-text-dark has-text-centered-touch">{{ i18n "privacypolicy" }}</a>
               
                 {{ end }}
                 
@@ -118,7 +118,7 @@
     
         <div class="level-right has-text-centered-touch">
             
-            <p class="">{{ i18n "credit" }} <a href="https://www.supersonicsites.com" class="has-text-primary">Supersonic Sites</a></p>
+            <p class="">{{ i18n "credit" }} <a href="https://www.supersonicsites.com" class="has-text-dark">Supersonic Sites</a></p>
           
           </div>                   
         
