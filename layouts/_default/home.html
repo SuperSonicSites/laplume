@@ -89,7 +89,7 @@
     <div class="columns is-variable is-5">
       <div class="column is-6">
         <h2 class="is-size-2 mb-3">{{ .Params.massage_heading }}</h2>
-        <p>{{ .Params.massage_desc }}</p>
+        <p>{{ .Params.massage_desc | safeHTML }}</p>
         <a href="#contact" class="button is-secondary mt-5">Schedule Appointment</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
