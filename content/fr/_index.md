@@ -1,9 +1,28 @@
 ---
 title: "La Plume D'Éveil"
-description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
+description: "Vivre. Restaurer. Grandir. Découvrez le destiné vous avec Vicky via la numérologie, explorez le bien-être avec le Reiki, Access Bar & le massage métamorphique."
 
-cta_link: 'https://app.acuityscheduling.com/schedule.php?owner=18476238'
-cta_text: Book a call
+cta: 'Prendre Rendez-Vous'
 
-heading: This is a test
+heading1: Vivre. Restaurer. Grandir
+subheading1: Découvrez la vérité en vous.
+subheading2: Physique, émotionnel, spirituel - les êtres humains, adultes et enfants, sont des créatures entières, et la douleur ou le traumatisme dans un domaine affecte tous les autres. Trouvez la relaxation, la stabilité émotionnelle et la tranquillité d'esprit grâce au travail énergétique et au massage. Éloignez-vous du stress de la vie, décompressez et trouvez une nouvelle perspective positive sur votre vie. 
+
+about_heading: Ma mission au cours de cette vie…
+about_bio: "Avez-vous déjà eu l'impression d'avoir «tout sous contrôle»? Et puis de façon inattendue, tout à coup vous êtes de retour à la case départ, de retour à la planche à dessin. Comme si vous suiviez le chemin que nous appelons la vie, qui ne semble finalement pas être ce que vous avez aspiré ou projeté pour vous-même.<br><br>Il est arrivé un moment dans ma vie où j'étais au plus bas, quelque chose a changé, cela m'a poussé à forger une connexion sincère et intime avec mon esprit intérieur; pour renouer plus profondément avec mon âme. Tout a commencé un après-midi après le thé avec un ami, cette conversation m'a ensuite conduit à des recherches sur la guérison naturelle, le yoga, la méditation et tout ce qui est lié à la guérison et à l'orientation spirituelles. Puis une chose a conduit à la suivante; c'était une lumière ou un signe qui me guidait. J'ai ressenti cette envie et cette poussée d'aller de l'avant et d'explorer le monde magnifique de la guérison énergétique. J'ai commencé par des séances de Reiki avec des cours de méditation et de yoga, cette nouvelle façon d'être, a complètement changé mon état d'esprit et ma vision de la vie. J'ai commencé à me sentir différente, connecté à la nature et à un véritable désir profond d'être un avec la réalité. J'ai trouvé la guérison au niveau émotionnel, physique et spirituel. J'ai enfin compris pourquoi j'étais ici et quelle était ma vocation et ma mission durant cette vie. J'ai continué à poursuivre ma formation Reiki ainsi que d'autres travaux énergétiques et de numérologie. Aujourd'hui, je poursuis une nouvelle formation énergétique dans les thérapies esséniennes et égyptiennes.<br><br>Ma passion d'aider les autres est ce qui nourrit mon âme, mon désir de partager mon histoire et d'entendre la vôtre est ce qui libère mon esprit. Mon dévouement au travail énergétique est ce que mon esprit alimente.<br><br>Namaste<br><br>"
+
+numerology_heading: La numérologie, notre code de vie…
+numerology_desc: "Chaque être humain a un anniversaire et un nom qui nous permettent de comprendre qui et pourquoi nous sommes. Notre code de vie est le ticket pour réussir et être préparé pour les chapitres karmiques que nous avons peut-être apportés à cette vie à partir de vies antérieures.<br><br>Cela nous permet de répondre à des questions comme, pourquoi vivons-nous ce chemin, quelle est ma mission, pourquoi cette amitié ou cette relation ne fonctionne pas. Connaître ces réponses vous permettra d'attirer l'abondance, la joie et la prospérité dans votre univers. Ces sessions sont soit en personne, soit enregistrées et sont ciblées pour vous donner les outils dont vous avez besoin pour vous orienter dans la direction que vous avez choisie les yeux ouverts et anticiper la suite."
+
+reiki_heading: Reiki, énergie universelle…
+reiki_desc: "Que nous nous trouvions à de faibles niveaux d'énergie ou que nous recherchions une connexion spirituelle plus forte, le flux d'énergie universelle fournit au corps et à l'esprit une relaxation profonde qui permet au corps de guérir. Le Reiki crée un sentiment profond de bien-être vous permettant de vous ancrer et de vous centrer, vous accueillant pour vous connecter avec votre esprit et votre moi intérieur et reconnaître votre conscience. Invitez-vous à vous déconnecter de la vie éveillée en trouvant un moment pour élargir votre conscience, pour être reconnaissant et abandonner l'inquiétude et la colère, être doux et gentil avec vous-même. <br> <br> Mes séances durent environ une heure et demie , chaque session est unique car je suis guidé par mon intuition et mes guides spirituels sur ce dont votre âme a besoin."
+
+massage_heading: Massage métamorphique, transformationnel…
+massage_desc: "C'est aussi spécial et aussi transformationnel qu'une chenille en métamorphose pour devenir un papillon. Venez vous détendre dans une profonde relaxation après un bain chaud des pieds, alors que j'applique des huiles essentielles luxueuses produites localement avec des points de contact subtils sur les pieds, les mains et la tête pour activer certains points réflexes spinaux qui relient les souvenirs du moment de la préconception à la naissance, libérant les tensions et structures que vous portez avec vous dans votre vie de tous les jours. Ce travail énergétique peut vous ramener à vos racines.<br><br>Chaque session dure environ une heure et demie et constitue une expérience unique."
+
+access_heading: Access Bar, changer des aspects de votre vie…
+access_desc: "Il est facile de programmer votre esprit avec des schémas de pensée négatifs en raison d'une rencontre blessante ou de mots décourageants. Dans les séances d'Access Bar, nous nous concentrons sur la libération des blocages de pensée nocifs grâce à l'acupression du bout des doigts et sur 32 points de contact le long des méridiens de votre tête. Ces points contiennent les pensées, les idées, les croyances, les émotions et les considérations que vous avez stockées. Reprogrammez votre esprit pour être la personne que vous voulez être."
+
+contact_heading: Rentrer en Contact
+contact_desc: "Connectez-vous avec moi, partagez votre histoire avec moi ou planifiez une session."
 ---

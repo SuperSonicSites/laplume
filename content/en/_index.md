@@ -1,9 +1,8 @@
 ---
 title: "La Plume D'Éveil"
-description: "Achieve your goals with more speed, ease and pleasure by partnering with a professional like Sebastian Assaf."
+description: "Revive. Restore. Reclaim. Discover the real you with Vicky via Numerology, explore wellbeing with Reiki and explore transformational techniques like Access Bar & Metamorphic Massages."
 
-cta_link: '#'
-cta_text: Book a call
+cta: 'Schedule Appointment'
 
 heading1: Revive. Restore. Reclaim.
 subheading1: Discover the real you.

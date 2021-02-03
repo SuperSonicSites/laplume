@@ -44,7 +44,7 @@
       <div class="column is-6">
         <h2 class="is-size-2 mb-3">{{ .Params.numerology_heading }}</h2>
         <p>{{ .Params.numerology_desc | safeHTML }}</p>
-        <a href="#contact" class="button is-secondary mt-5">Schedule Appointment</a>
+        <a href="#contact" class="button is-secondary mt-5">{{ .Params.cta }}</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/numerology.jpg" class="lazyload has-shadow" class="has-shadow" alt="Numerology">
@@ -66,7 +66,7 @@
       <div class="column is-6">
         <h2 class="is-size-2 mb-3">{{ .Params.reiki_heading }}</h2>
         <p>{{ .Params.reiki_desc | safeHTML }}</p>
-        <a href="#contact" class="button is-primary mt-5">Schedule Appointment</a>
+        <a href="#contact" class="button is-primary mt-5">{{ .Params.cta }}</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/Reiki.jpg" class="lazyload has-shadow" alt="">
@@ -89,7 +89,7 @@
       <div class="column is-6">
         <h2 class="is-size-2 mb-3">{{ .Params.massage_heading }}</h2>
         <p>{{ .Params.massage_desc | safeHTML }}</p>
-        <a href="#contact" class="button is-secondary mt-5">Schedule Appointment</a>
+        <a href="#contact" class="button is-secondary mt-5">{{ .Params.cta }}</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/metamorphic.jpg" class="has-shadow" alt="">
@@ -111,7 +111,7 @@
       <div class="column is-6">
         <h2 class="is-size-2 mb-3">{{ .Params.access_heading }}</h2>
         <p>{{ .Params.access_desc }}</p>
-        <a href="#contact" class="button is-primary mt-5">Schedule Appointment</a>
+        <a href="#contact" class="button is-primary mt-5">{{ .Params.cta }}</a>
       </div>
       <div class="column is-flex is-column is-justified-center">
         <img src="{{ $.Site.BaseURL }}img/accessbar.jpg" class="has-shadow" alt="">
