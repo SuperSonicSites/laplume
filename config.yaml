@@ -4,7 +4,7 @@ DefaultContentLanguage: en
 params:
     businessname: "La Plume d'Éveil"
     showLanguageSelector: true #true if bilingual site - false if unilingua
-    usebasin: 'https://usebasin.com/f/1acd00a6378f' #endpoint for forms
+    usebasin: 'https://usebasin.com/f/0a656220e656' #endpoint for forms
     googlemap: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11223.689707104979!2d-74.6359188!3d45.3099926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1bdadfff001df0c7!2sThe%20North%20Glengarry!5e0!3m2!1sen!2sca!4v1605112402884!5m2!1sen!2sca' # Map code of Google
     gtm: 'GTM-M74Z4T4'
     social:
