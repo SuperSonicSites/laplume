@@ -1,11 +1,11 @@
 ---
 title: "La Plume D'Éveil"
-description: "Vivre. Restaurer. Grandir. Découvrez le destiné vous avec Vicky via la numérologie, explorez le bien-être avec le Reiki, Access Bar & le massage métamorphique."
+description: "Vivre. Restaurer. Grandir. Découvrez le destiné vous avec Vicky via la numérologie, explorez le bien-être avec le Reiki, Access Bars & le massage métamorphique."
 
 cta: 'Prendre Rendez-Vous'
 
 heading1: Vivre. Restaurer. Grandir
-subheading1: Découvrez la vérité en vous.
+subheading1: Laissé alleé vos soucis et inquiétudes,  invitez à chaque respiration,  l'harmonie et l'équilibre dans votre monde.
 subheading2: Physique, émotionnel, spirituel - les êtres humains, adultes et enfants, sont des créatures entières, et la douleur ou le traumatisme dans un domaine affecte tous les autres. Trouvez la relaxation, la stabilité émotionnelle et la tranquillité d'esprit grâce au travail énergétique et au massage. Éloignez-vous du stress de la vie, décompressez et trouvez une nouvelle perspective positive sur votre vie. 
 
 about_heading: Ma mission au cours de cette vie…
@@ -20,7 +20,7 @@ reiki_desc: "Que nous nous trouvions à de faibles niveaux d'énergie ou que nou
 massage_heading: Massage métamorphique, transformationnel…
 massage_desc: "C'est aussi spécial et aussi transformationnel qu'une chenille en métamorphose pour devenir un papillon. Venez vous détendre dans une profonde relaxation après un bain chaud des pieds, alors que j'applique des huiles essentielles luxueuses produites localement avec des points de contact subtils sur les pieds, les mains et la tête pour activer certains points réflexes spinaux qui relient les souvenirs du moment de la préconception à la naissance, libérant les tensions et structures que vous portez avec vous dans votre vie de tous les jours. Ce travail énergétique peut vous ramener à vos racines.<br><br>Chaque session dure environ une heure et demie et constitue une expérience unique."
 
-access_heading: Access Bar, changer des aspects de votre vie…
+access_heading: Access Bars, changer des aspects de votre vie…
 access_desc: "Il est facile de programmer votre esprit avec des schémas de pensée négatifs en raison d'une rencontre blessante ou de mots décourageants. Dans les séances d'Access Bar, nous nous concentrons sur la libération des blocages de pensée nocifs grâce à l'acupression du bout des doigts et sur 32 points de contact le long des méridiens de votre tête. Ces points contiennent les pensées, les idées, les croyances, les émotions et les considérations que vous avez stockées. Reprogrammez votre esprit pour être la personne que vous voulez être."
 
 contact_heading: Rentrer en Contact
