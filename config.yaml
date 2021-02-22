@@ -53,7 +53,7 @@ languages:
         - name: Massage
           url: "#massage"
           weight: 5
-        - name: Access Bar
+        - name: Access Bars
           url: "#access"
           weight: 6
         - name: Contact
