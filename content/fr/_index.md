@@ -4,7 +4,7 @@ description: "Vivre. Restaurer. Grandir. Découvrez le destiné vous avec Vicky 
 
 cta: 'Prendre Rendez-Vous'
 
-heading1: Vivre. Restaurer. Grandir
+heading1: Vivre. Restaurer. Grandir.
 subheading1: Laissé alleé vos soucis et inquiétudes,  invitez à chaque respiration,  l'harmonie et l'équilibre dans votre monde.
 subheading2: Physique, émotionnel, spirituel - les êtres humains, adultes et enfants, sont des créatures entières, et la douleur ou le traumatisme dans un domaine affecte tous les autres. Trouvez la relaxation, la stabilité émotionnelle et la tranquillité d'esprit grâce au travail énergétique et au massage. Éloignez-vous du stress de la vie, décompressez et trouvez une nouvelle perspective positive sur votre vie. 
 
