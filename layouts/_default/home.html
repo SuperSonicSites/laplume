@@ -5,8 +5,8 @@
     <div class="container">
       <div class="columns">
         <div class="column is-flex is-column is-justified-center">
-          <h1 class="is-hero">{{ .Params.heading1 }}</h1>
-          <h2 class="is-size-2">{{ .Params.subheading1 }}</h2>
+          <h1 class="is-hero has-text-centered-touch">{{ .Params.heading1 }}</h1>
+          <h2 class="is-size-2 has-text-centered-touch">{{ .Params.subheading1 }}</h2>
         </div>
         <div class="column">
           <img src="{{ $.Site.BaseURL }}img/logo.png" class="lazyload" alt="La Plume d'Éveil">
@@ -123,10 +123,10 @@
 
 <section id="contact" class="section is-medium gradient-background">
   <div class="container">
-    <h2 class="is-size-1 is-bold has-text-centered has-text-left-touch">
+    <h2 class="is-size-1 is-bold has-text-centered">
       {{ .Params.contact_heading }}
     </h2>
-    <h3 class="has-text-centered has-text-left-touch block py-2 is-size-4">
+    <h3 class="has-text-centered block py-2 is-size-4">
       {{ .Params.contact_desc | safeHTML }}
     </h3>
   </div>
