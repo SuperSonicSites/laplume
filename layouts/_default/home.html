@@ -6,7 +6,8 @@
       <div class="columns">
         <div class="column is-flex is-column is-justified-center">
           <h1 class="is-hero has-text-centered-touch">{{ .Params.heading1 }}</h1>
-          <h2 class="is-size-2 has-text-centered-touch">{{ .Params.subheading1 }}</h2>
+          <h2 class="is-size-2 has-text-centered-touch">{{ .Params.subheading1 | safeHTML }}</h2>
+          <h3 class="is-size-3 has-text-centered-touch">{{ .Params.subheading2 | safeHTML }}</h3>
         </div>
         <div class="column">
           <img src="{{ $.Site.BaseURL }}img/logo.png" class="lazyload" alt="La Plume d'Éveil">

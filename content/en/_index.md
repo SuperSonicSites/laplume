@@ -1,13 +1,13 @@
 ---
 title: "Numerology, Reiki, Access Bars & Metamorphic Massage" 
-description: "Connecting with your soul. One breath at a time.Let go of your worries and concerns...One breath at a time, allow harmony and balance into your life."
+description: "Connecting with your soul.One breath at a time. Let go of your worries and concerns...One breath at a time, allow harmony and balance into your life."
 
 cta: 'Schedule Appointment'
 
 heading1: Connecting With Your Soul
-subheading1: One breath at a time. Let go of your worries and concerns...One breath at a time, allow harmony and balance into your life.
+subheading1: One breath at a time...
 
-subheading2: Physical, emotional, spiritual - human beings, adults and children alike, are whole creatures, and pain or trauma in one area affects all the rest. Find physical relaxation, emotional stability, and peace of mind through energy work and massage. Step away from the stresses of life, decompress, and find a positive new perspective on your life. 
+subheading2: Let go of your worries and concerns...One breath at a time, allow harmony and balance into your life. 
 
 about_heading: My mission during this life…
 about_bio: "There came a point in my life where I was at my lowest, something changed, it drove me forge a sincere and intimate connection with my inner spirit; to reconnect more profoundly with my soul. It all started one afternoon after tea with a friend. I jumped into researching natural healing, yoga, meditation, and all that is found within the world of spiritual healing and guidance. Then one thing led to the next; it was a like light or a sign that I was asking for. I felt this urge and push to move forward and explore the beautiful world of energy healing. I started with Reiki sessions along with meditation and yoga classes. This new way of being completely changed my mindset and outlook on life. Little by little I began to feel different, connected with nature and a true profound desire to be one with nature. I found healing on an emotional and physical level as well as a spiritual connection. I understood finally why I was here and what my calling was and my mission during this life. I then went on to pursue my Reiki training as well as other energy work and numerology. I am currently pursuing a new energy training in Essenian and Egyptian therapies along with my professional intuitive numerology certification.<br><br> Supporting people is a passion that nourishes my soul; and sharing my story and listening to yours frees my mind. My whole being is driven by a deep dedication to energy healing. I would be overjoyed to connect with you."
