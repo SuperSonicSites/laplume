@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: "https://www.laplumedeveil.ca/"
 DefaultContentLanguage: en
 
 params:
@@ -20,7 +20,7 @@ params:
         reservation: 'true'
         openinghour: '"Su-Sa 9:00-21:00"'
         logo: img/logo.png
-        image: "img/og.jpg"
+        image: "https://www.laplumedeveil.ca/img/og.jpg"
         address: 874 Rue Villeneuve, 
         address2:
         city: Très-Saint-Rédempteur
