@@ -144,54 +144,35 @@
       role="form"
     >
       <div class="field">
-        <label class="label">{{ i18n "firstname" }} *</label>
+        <label for="form_name">{{ i18n "firstname" }} *</label>
 
-        <div class="control">
-          <input
-            id="form_name"
-            class="input"
-            placeholder="e.g Alex Smith"
-            type="text"
-            name="name"
-            class="form-control"
-            required="required"
-            data-error="Firstname is required."
-          />
-        </div>
+        <input id="form_name" type="text" name="name" class="input" required="required"
+          data-error="Firstname is required.">
       </div>
 
       <div class="field">
-        <label class="label">{{ i18n "email" }} *</label>
 
-        <div class="control">
-          <input
-            class="input"
-            type="email"
-            placeholder="e.g. alexsmith@gmail.com"
-            data-error="Valid email is required."
-          />
-        </div>
+        <label for="form_email">{{ i18n "email" }} *</label>
+    
+        <input id="form_email" type="email" name="email" class="input" required="required"
+          data-error="Valid email is required.">
+    
       </div>
 
       <div class="field">
-        <label class="label">{{ i18n "phone" }}</label>
 
-        <div class="control">
-          <input class="input" type="tel" placeholder="e.g. +1-234-567-7890" />
-        </div>
+        <label for="form_phone">{{ i18n "phone" }}</label>
+    
+        <input id="form_phone" type="tel" name="phone" class="input">
+    
       </div>
 
       <div class="field">
-        <label for="form_message"><strong>Message *</strong></label>
-
-        <textarea
-          id="form_message"
-          name="message"
-          class="textarea"
-          rows="4"
-          required
-          data-error="Please,leave us a message."
-        ></textarea>
+        <label for="form_message">Message *</label>
+    
+        <textarea id="form_message" name="message" class="input" rows="4" required
+          data-error="Please,leave us a message."></textarea>
+    
       </div>
       <div class="is-flex is-justified-center">
         <input type="submit" class="button is-primary is-large my-5 has-text-centered"
@@ -202,3 +183,43 @@
 </section>
 {{ end }}
 
+<form id="contact-form" method="POST" action="{{ .Site.Params.usebasin }}" role="form">
+
+  <div class="field">
+
+    <label for="form_name">{{ i18n "firstname" }} *</label>
+
+    <input id="form_name" type="text" name="name" class="input" required="required"
+      data-error="Firstname is required.">
+
+  </div>
+
+  <div class="field">
+
+    <label for="form_email">{{ i18n "email" }} *</label>
+
+    <input id="form_email" type="email" name="email" class="input" required="required"
+      data-error="Valid email is required.">
+
+  </div>
+
+  <div class="field">
+
+    <label for="form_phone">{{ i18n "phone" }}</label>
+
+    <input id="form_phone" type="tel" name="phone" class="input">
+
+  </div>
+
+  <div class="field">
+    <label for="form_message">Message *</label>
+
+    <textarea id="form_message" name="message" class="input" rows="4" required
+      data-error="Please,leave us a message."></textarea>
+
+  </div>
+  
+  <div class="is-flex is-justified-start">
+    <input type="submit" class="button is-secondary" value="Envoyer Le Message">
+  </div>
+</form>
